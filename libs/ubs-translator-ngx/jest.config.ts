@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'translator-ngx',
+  displayName: 'ubs-translator-ngx',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/translator-ngx',
+  coverageDirectory: '../../coverage/libs/ubs-translator-ngx',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

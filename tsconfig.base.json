@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ubs-platform/translator-ngx": ["libs/ubs-translator-ngx/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

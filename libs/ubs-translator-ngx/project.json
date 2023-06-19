@@ -1,0 +1,50 @@
+{
+  "name": "ubs-translator-ngx",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ubs-translator-ngx/src",
+  "prefix": "translator-ngx",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:package",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/ubs-translator-ngx/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/ubs-translator-ngx/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/ubs-translator-ngx/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/ubs-translator-ngx/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/ubs-translator-ngx/**/*.ts",
+          "libs/ubs-translator-ngx/**/*.html"
+        ]
+      }
+    }
+  }
+}
