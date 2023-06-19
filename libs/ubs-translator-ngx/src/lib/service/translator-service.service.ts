@@ -1,17 +1,17 @@
 import { Inject, Injectable } from '@angular/core';
-import {
-  ILazyloadHandler,
-  RxActionLazyloadHandler,
-  TranslationPart,
-  TranslationPartObservable,
-  TranslationRepository,
-} from '/run/media/huseyin/Crucial X6/hcg/lotus-web/node_modules/@ubs-platform/translator-core/dist/';
+
 import { filter, map, of } from 'rxjs';
 import {
   LANGUAGE_JSON_URL,
   TRANSLATOR_REPO_LAZYLOAD_HANDLERS,
 } from '../tokens/language-json-url-token';
 import { HttpClient } from '@angular/common/http';
+import {
+  ILazyloadHandler,
+  RxActionLazyloadHandler,
+  TranslationPart,
+  TranslationRepository,
+} from '@ubs-platform/translator-core';
 
 @Injectable()
 export class TranslatorRepositoryService extends TranslationRepository {

@@ -1,9 +1,11 @@
 {
   "name": "@ubs-platform/translator-ngx",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "peerDependencies": {
-    "@angular/common": "^16.0.0",
-    "@angular/core": "^16.0.0"
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "@ubs-platform/translator-core": "^1.0.5",
+    "rxjs": "~7.5.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
