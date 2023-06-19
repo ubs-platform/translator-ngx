@@ -1,6 +1,6 @@
 {
   "name": "@ubs-platform/translator-ngx",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0",
@@ -10,5 +10,10 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/ubs-platform/translator-ngx",
+  "repository": "https://github.com/ubs-platform/translator-ngx"
 }

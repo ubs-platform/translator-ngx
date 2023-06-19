@@ -1,7 +1,5 @@
-# ubs-translator-ngx
+# UBS Translator NGX (a14-c1.0.5)
 
-This library was generated with [Nx](https://nx.dev).
+A translator library for Angular, based [Translator Core](https://www.github.com/ubs-platform/translator-core)
 
-## Running unit tests
-
-Run `nx test ubs-translator-ngx` to execute the unit tests.
+Examples will be documented soon
