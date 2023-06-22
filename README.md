@@ -2,6 +2,8 @@
 
 A translator library for Angular, based [Translator Core](https://www.github.com/ubs-platform/translator-core)
 
+[![Importante Resultante :d](http://img.youtube.com/vi/aa9nspVSr5c/0.jpg)](http://www.youtube.com/watch?v=aa9nspVSr5c 'Result video')
+
 # Installation
 
 ```bash
