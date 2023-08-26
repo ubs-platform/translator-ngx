@@ -1,11 +1,11 @@
 {
   "name": "@ubs-platform/translator-ngx",
-  "version": "1.0.6",
+  "version": "2.0.1",
   "peerDependencies": {
-    "@angular/common": "^14.0.0",
-    "@angular/core": "^14.0.0",
-    "@ubs-platform/translator-core": "^1.0.5",
-    "rxjs": "~7.5.0"
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@ubs-platform/translator-core": "^1.0.6",
+    "rxjs": "~7.8.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -15,5 +15,6 @@
     "access": "public"
   },
   "homepage": "https://github.com/ubs-platform/translator-ngx",
-  "repository": "https://github.com/ubs-platform/translator-ngx"
+  "repository": "https://github.com/ubs-platform/translator-ngx",
+  "license": "MIT"
 }
