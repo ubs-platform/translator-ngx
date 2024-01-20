@@ -1,4 +1,4 @@
-# UBS Translator NGX (a14-c1.0.7)
+# UBS Translator NGX (a16-c1.0.7)
 
 A translator library for Angular, based [Translator Core](https://www.github.com/ubs-platform/translator-core)
 
@@ -10,8 +10,8 @@ A translator library for Angular, based [Translator Core](https://www.github.com
 npm install rxjs @ubs-platform/translator-core @ubs-platform/translator-ngx
 ```
 
-⚠️ Currently natively working on Angular 14. If you have newer angular version, you can install by passing `--legacy-peer-deps`
-It works fine on Angular 16. However, we working at the new upgrade for Angular 16
+⚠️ Currently natively working on Angular 16. If you have newer angular version, you can install by passing `--legacy-peer-deps`
+It should work on Angular 17. However it not tested yet and i don't recommend this way either. We are working at the new upgrade for Angular 17
 
 # How to use
 
@@ -222,6 +222,14 @@ We are planning to making documentation more detailed and upgrade the angular ve
 If you have any questions, improvements or any issue, you can open a issue or pull request without hesitation.
 
 # Changelog
+
+## 2.0.2
+
+- Version of Translator Core library has been upgraded to 1.0.7
+
+## 2.0.1
+
+- Upgraded to Angular 16
 
 ## 1.0.7
 
