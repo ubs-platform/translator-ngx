@@ -1,6 +1,6 @@
 {
   "name": "@translator-ngx/source",
-  "version": "2.0.2",
+  "version": "3.0.2",
   "license": "MIT",
   "scripts": {},
   "private": true,
@@ -16,7 +16,7 @@
     "@angular/router": "17.3.7",
     "@nx/angular": "18.3.4",
     "@ubs-platform/translator-core": "^1.0.7",
-    "rxjs": "~7.5.0",
+    "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "0.14.5"
   },
